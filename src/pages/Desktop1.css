@@ -1,0 +1,105 @@
+.synergy {
+  position: absolute;
+  top: calc(50% - 322.5px);
+  left: calc(50% - 131.5px);
+  font-family: Roboto;
+  display: inline-block;
+  width: 262px;
+}
+.please-enter-the,
+.verify-e-mail-address {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 343px;
+  height: 81px;
+  flex-shrink: 0;
+}
+.please-enter-the {
+  font-size: 20px;
+  width: 274px;
+  height: 58px;
+}
+.verify-e-mail-address-parent {
+  position: absolute;
+  top: 244px;
+  left: 76px;
+  width: 343px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 36px;
+}
+.frame-child {
+  position: relative;
+  background-color: #000;
+  width: 40.41px;
+  height: 66px;
+  flex-shrink: 0;
+}
+.otp-timer,
+.rectangle-parent {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.rectangle-parent {
+  top: 457px;
+  left: 114px;
+  width: 266.62px;
+  height: 66px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 34px;
+  opacity: 0.8;
+  mix-blend-mode: normal;
+}
+.otp-timer {
+  top: 577px;
+  left: calc(50% - 87.5px);
+  font-size: 20px;
+  font-weight: 600;
+  justify-content: center;
+  width: 174px;
+  height: 30px;
+}
+.progresslinear {
+  position: absolute;
+  top: 622.5px;
+  left: 147px;
+}
+.otp-box {
+  position: relative;
+  background-color: rgba(254, 254, 254, 0.8);
+  width: 495px;
+  height: 695px;
+  flex-shrink: 0;
+  overflow: hidden;
+  mix-blend-mode: screen;
+}
+.desktop-1,
+.otp-box-wrapper {
+  width: 495px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.desktop-1 {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  padding: 0 472px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  background-image: url(/public/desktop--1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: 40px;
+  color: #000;
+  font-family: "Advent Pro";
+}
