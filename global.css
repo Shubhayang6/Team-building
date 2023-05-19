@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  line-height: normal;
+  overflow: hidden;
+}
+
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+
+  /* Colors */
+  --color-black: #000;
+}

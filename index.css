@@ -1,0 +1,102 @@
+.logosgoogle-gmail-icon {
+  position: relative;
+  width: 166px;
+  height: 124.45px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.validate-yourself {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.42em;
+  line-height: 233.9%;
+  font-weight: 800;
+  background: linear-gradient(180deg, #48a3d7, rgba(0, 0, 0, 0.79));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 8px 6px 5px rgba(0, 0, 0, 0.31);
+  transition: ease-in-out
+}
+.unlock-the-full {
+  margin-block-start: 0;
+  margin-block-end: 40px;
+}
+.click-here {
+  color: #1e6ce1;
+  cursor: pointer;
+}
+
+
+.click-here-if-you-didnt-recei {
+  margin: 0;
+}
+.unlock-the-full-container {
+  align-self: stretch;
+  position: relative;
+  font-size: 20px;
+  letter-spacing: 0.14em;
+  line-height: 66.5px;
+  font-weight: 600;
+  text-shadow: 3px 4px 7px rgba(0, 0, 0, 0.25);
+}
+.desktop {
+  position: relative;
+  background-color: #ecf0f3;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 239px 344px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 58px;
+  text-align: center;
+  font-size: 48px;
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(80px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.validate-yourself{
+  animation: 3.5s ease 0s 1 fadeIn;
+}
+
+.logosgoogle-gmail-icon{
+  animation: 1.5s ease-in-out 0s 1 fadeInDown;
+}
+
+/* anuimate validate yourself class */
+.unlock-the-full-container{
+  animation: 0.8s ease-in-out 0s 1 fadeInUp;
+}
